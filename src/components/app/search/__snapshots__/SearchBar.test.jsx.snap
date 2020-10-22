@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Does the SearchBar component render? should render a SearchBar component 1`] = `
+<DocumentFragment>
+  <label
+    for="search"
+  >
+    Search here!
+  </label>
+  <input
+    id="search"
+    name="search"
+    type="search"
+    value="Anythingdoesntmattererhmahgawd"
+  />
+  <button
+    data-testid="dasbutton"
+  >
+    Push me!
+  </button>
+</DocumentFragment>
+`;
