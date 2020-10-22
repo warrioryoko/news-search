@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Does the ArticleList component render? should render the ArticleList component 1`] = `
+<DocumentFragment>
+  <ul
+    data-testid="articles"
+  >
+    <li>
+      <h1>
+        favorite things 1
+      </h1>
+      <p>
+        Written by: Oscar Hammerstein
+      </p>
+      <p>
+        Article summary: Raindrops on roses and whiskers on kittens
+      </p>
+    </li>
+    <li>
+      <h1>
+        favorite things 2
+      </h1>
+      <p>
+        Written by: Oscar Hammerstein
+      </p>
+      <p>
+        Article summary: Bright copper kettles and warm woolen mittens
+      </p>
+    </li>
+    <li>
+      <h1>
+        favorite things 3
+      </h1>
+      <p>
+        Written by: Oscar Hammerstein
+      </p>
+      <p>
+        Article summary: Brown paper packages tied up with strings
+      </p>
+    </li>
+    <li>
+      <h1>
+        favorite things 4
+      </h1>
+      <p>
+        Written by: Oscar Hammerstein
+      </p>
+      <p>
+        Article summary: Cream colored ponies and crisp apple strudels
+      </p>
+    </li>
+    <li>
+      <h1>
+        favorite things 5
+      </h1>
+      <p>
+        Written by: Oscar Hammerstein
+      </p>
+      <p>
+        Article summary: Door bells and sleigh bells and schnitzel with noodles
+      </p>
+    </li>
+    <li>
+      <h1>
+        favorite things 6
+      </h1>
+      <p>
+        Written by: Oscar Hammerstein
+      </p>
+      <p>
+        Article summary: Wild geese that fly with the moon on their wings
+      </p>
+    </li>
+    <li>
+      <h1>
+        favorite things 7
+      </h1>
+      <p>
+        Written by: Oscar Hammerstein
+      </p>
+      <p>
+        Article summary: Girls in white dresses with blue satin sashes
+      </p>
+    </li>
+    <li>
+      <h1>
+        favorite things 8
+      </h1>
+      <p>
+        Written by: Oscar Hammerstein
+      </p>
+      <p>
+        Article summary: Snowflakes that stay on my nose and eyelashes
+      </p>
+    </li>
+    <li>
+      <h1>
+        favorite things 9
+      </h1>
+      <p>
+        Written by: Oscar Hammerstein
+      </p>
+      <p>
+        Article summary: Silver white winters that melt into springs
+      </p>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
