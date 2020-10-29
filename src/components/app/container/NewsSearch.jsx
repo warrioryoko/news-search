@@ -11,11 +11,16 @@ export default class ArticleResults extends Component {
     loading: true
   }
 
+  // Probably needs to be on an outer container file to work properly
+  componentDidMount() {
+    this.setState({ loading: false });
+  }
+
   handleChange = ({ target }) => {
     this.setState({ search: target.value });
   }
 
-  handleSearch = async() => {
+  handleSearch = async () => {
     const fetchedArticles = await fetchDasArticles(this.state.search);
     this.setState({ articles: fetchedArticles, loading: false });
   }
@@ -23,14 +28,16 @@ export default class ArticleResults extends Component {
   render() {
     const { articles, search, loading } = this.state;
 
-    if(loading) return <>
-      <SearchBar
-        search={search}
-        onSubmit={this.handleSearch}
-        onChange={this.handleChange}
-      />
-      <LoadingSpinner />
-    </>;
+    if (loading) return (
+      <>
+        <SearchBar
+          search={search}
+          onSubmit={this.handleSearch}
+          onChange={this.handleChange}
+        />
+        <LoadingSpinner />
+      </>
+    );
     return (
       <>
         <SearchBar
